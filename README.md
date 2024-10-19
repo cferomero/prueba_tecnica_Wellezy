@@ -7,6 +7,7 @@ Que permita al usuario reservar vuelos, segun los filtros aplicados anteriorment
 ### Arquitectura del software
 Software constituido por dos módulos. Un módulo Fronted desarrollado en React con Typescript y un módulo Backend desarrollado con php Laravel artisan. Junto a una base de datos mysql.
 Para el módulo Fronted, se utilizó librerías de componentes UI como ShadCn y TanqStack; También se implementó framework de Css como Tailwind, axios para realizar las peticiones y Eslint como parte de las purebas de clean code.
+El backend con Laravel se ejecutó en el puerto http://localhost:8000 y el Fronted React en el http://localhost:3000.
 
 #### Api Laravel
 El modelo de arquitectura del Backend fue con el model, controller y migrations, donde exportaron las tablas para la base de datos.
